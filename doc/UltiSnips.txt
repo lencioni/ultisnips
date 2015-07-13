@@ -307,11 +307,11 @@ alternative function IMAP_Jumpfunc('', 0) is called.
 
 Note Autocommands must *not* change the buffer in any way. If lines are added,
 deleted, or modified it will confuse UltiSnips which might scramble your
-snippets contents.
+snippets' contents.
 
                           *UltiSnipsEnterFirstSnippet* *UltiSnipsExitLastSnippet*
 For maximum compatibility with other plug-ins, UltiSnips sets up some special
-state, include mappings and autocommands, when a snippet starts being
+state, including mappings and autocommands, when a snippet starts being
 expanded, and tears them down once the last snippet has been exited. In order
 to make it possible to override these "inner" settings, it fires the following
 "User" autocommands:
